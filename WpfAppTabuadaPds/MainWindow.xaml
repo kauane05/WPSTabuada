@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfAppTabuadaPds.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppTabuadaPds"
+        mc:Ignorable="d"
+        Title="Tabuada Simples" Height="517" Width="628">
+    <Grid Height="563" VerticalAlignment="Top" Background="#FFE8A5B4">
+        <ComboBox x:Name="cbNumeros" HorizontalAlignment="Center" Margin="0,112,0,0" VerticalAlignment="Top" Width="360" Height="30" SelectedIndex="0" SelectionChanged="cbNumeros_SelectionChanged" FontWeight="Bold">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Content="1 - Um" FontSize="14"/>
+            <ComboBoxItem Content="2 - Dois" FontSize="14"/>
+            <ComboBoxItem Content="3 - Três" FontSize="14"/>
+            <ComboBoxItem Content="4 - Quatro" FontSize="14"/>
+            <ComboBoxItem Content="5 - Cinco" FontSize="14"/>
+            <ComboBoxItem Content="6 - Seis" FontSize="14"/>
+            <ComboBoxItem Content="7 - Sete" FontSize="14"/>
+            <ComboBoxItem Content="8 - Oito" FontSize="14"/>
+            <ComboBoxItem Content="9 - Nove" FontSize="14"/>
+            <ComboBoxItem Content="10 - Dez" FontSize="14"/>
+        </ComboBox>
+        <Label Content="Selecione o número:" HorizontalAlignment="Left" Margin="102,72,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Height="35"/>
+        <ListBox x:Name="lbResposta"  Margin="102,147,102,133" FontWeight="Bold"/>
+        <Button x:Name="btExecutar" Content="Calcular" HorizontalAlignment="Center" Margin="0,450,0,0" VerticalAlignment="Top" Click="btExecutar_Click" Height="37" Width="136" Background="White" FontWeight="Bold"/>
+        <Label x:Name="TABUADA" Content="TABUADA" HorizontalAlignment="Left" Margin="275,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" Height="35" Width="186"/>
+
+    </Grid>
+</Window>

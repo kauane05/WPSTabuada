@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppTabuadaPds", "WpfAppTabuadaPds\WpfAppTabuadaPds.csproj", "{04CB32E2-8F98-4F54-AE2A-17CD5FB6BEAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04CB32E2-8F98-4F54-AE2A-17CD5FB6BEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CB32E2-8F98-4F54-AE2A-17CD5FB6BEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CB32E2-8F98-4F54-AE2A-17CD5FB6BEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CB32E2-8F98-4F54-AE2A-17CD5FB6BEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F853D7C9-B2F4-4832-AF32-EE0486872DB3}
+	EndGlobalSection
+EndGlobal
